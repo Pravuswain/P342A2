@@ -14,7 +14,7 @@ int main()
     for (int i=0;i<3;i++){
         cp[i]=temp[i];
     }
-    printf("The dot product is %lf\n",r );
+    printf("A.B= %lf\n",r );
    
     for(int i = 0; i <3; i++)
       printf("%lf ", cp[i]);
@@ -32,9 +32,15 @@ double dot(double *a, double *b, size_t n)
  
     return dot;
 }
+void sum(double*a, double* b, double temp[])
+{
+    temp[0]=a[0]+b[0];
+    temp[1]=a[1]+b[1];
+    temp[2]=a[2]+b[2];
+}
 
 
 
-
-//The dot product is 7.000000
+//A.B = 7.000000
+//A+B = 6.000000 1.000000 -6.000000 
 
