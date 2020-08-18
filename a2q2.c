@@ -15,7 +15,7 @@ int main()
         cp[i]=temp[i];
     }
     printf("A.B= %lf\n",r );
-    printf("A+B = %lf\n",r);
+    printf("A+B = ");
    
     for(int i = 0; i <3; i++)
       printf("%lf ", cp[i]);
